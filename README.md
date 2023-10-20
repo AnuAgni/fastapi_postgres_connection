@@ -20,3 +20,10 @@
    from database import base
    from model import *
 Scroll down in the same file to 'target_metadata' and assign it base.metadata.
+
+In in terminal :
+alembic revision --autogenerate
+This will add the table in the database.
+Then:
+alembic upgrade head
+This will save the changes to the databse.

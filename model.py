@@ -1,3 +1,4 @@
+#table for postgresql
 from sqlalchemy import Column, String,Integer
 from database import base
 
